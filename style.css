@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-image: linear-gradient(180deg,#1c92d2, #f2fcfe);
+    background-size: 300% 500%;
+    position: relative;
+}
+h1{
+    color: rgb(53, 8, 109);  
+    margin: 20px;
+}
+.container{
+    width: 30%;
+    height: 40%;
+    left: 30px;
+    top: 20px;
+    background-color: #fff;
+    margin: 100px auto 0;
+    border-radius: 3px;
+    padding: 40px 35px;
+    text-align: center;
+    box-shadow:#555 10%;
+    
+}   
+
+.form_box input{
+    border: 0;
+    outline: 0;
+    background: #d8faf1;
+    color: #555;
+    padding: 10px 25px; 
+    height: 20 px;
+    flex: 1;
+    margin: 10px;
+    font-size: 15px;
+}
+
+
+.siginbutton{
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    height: 100vh;  
+}
+.btn1{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-image: linear-gradient(#93e8ff, #45109b);
+    color: #fff;
+    border: none;
+    margin: 15px;
+    border-radius: 30px;
+    width: 20vh;
+    cursor: pointer;
+    
+}
+
+.btn2{
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #e7e6e6;
+    color: #6b6b6b;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    width: 20vh;
+    margin-right: 10px;
+}
